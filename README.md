@@ -3,7 +3,7 @@
 Đây là một ứng dụng web đơn giản và thân thiện cho việc phát hiện đối tượng trong ảnh, sử dụng mô hình **YOLOv8** kết hợp với **Streamlit** để xây dựng trang web.  
 Người dùng có thể tải ảnh lên và xem kết quả phát hiện đối tượng với khung giới hạn và nhãn đối tượng.
 
----
+
 
 ## 🌟 Tính năng
 
@@ -12,13 +12,13 @@ Người dùng có thể tải ảnh lên và xem kết quả phát hiện đố
 - Giao diện web sử dụng bằng Streamlit.
 - Có thể dễ dàng chạy tại máy tính cá nhân.
 
----
+
 
 ## 👤 Tác giả
 
 **Nguyễn Hoài An**
 
----
+
 
 ## 📁 Cấu trúc thư mục
 
@@ -31,7 +31,7 @@ YOLOv8_ObjectDetectionWeb/
 yaml
 Copy code
 
----
+
 
 ## 🚀 Hướng dẫn cách cài đặt và chạy ứng dụng webweb
 
@@ -51,7 +51,7 @@ bash
 Copy code
 python -m streamlit run web.py
 
----
+
 
 ## 🎬 Video Demo
 👉 Xem video demo cách hoạt động của ứng dụng tại đây:
