@@ -30,7 +30,7 @@ YOLOv8_ObjectDetectionWeb/
 ```
 
 
-## 🚀 Hướng dẫn cách cài đặt và chạy ứng dụng webweb
+## 🚀 Hướng dẫn cách cài đặt và chạy ứng dụng web
 
 ### 1. Clone repository
 ```bash
