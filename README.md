@@ -7,7 +7,7 @@ Người dùng có thể tải ảnh lên và xem kết quả phát hiện đố
 
 ## 🌟 Tính năng
 
-- Tải ảnh lên (hỗ trợ JPG, PNG, BMP, WEBP…).
+- Tải ảnh lên (file tối đa 200MB, hỗ trợ file JPG, PNG, BMP, WEBP).
 - Phát hiện đối tượng bằng mô hình YOLOv8 (`yolov8n.pt`).
 - Giao diện web sử dụng bằng Streamlit.
 - Có thể dễ dàng chạy tại máy tính cá nhân.
@@ -40,17 +40,19 @@ Copy code
 ```bash
 git clone https://github.com/<ten-nguoi-dung>/YOLOv8_ObjectDetection_Web.git
 cd YOLOv8_ObjectDetectionWeb
+```
 
-2. 📦 Cài đặt các thư viện cần thiết
-bash
-bash
+### 2. 📦 Cài đặt các thư viện cần thiết
+```bash
 Copy code
 pip install -r requirements.txt
-3. 🚀 Chạy ứng dụng web
-bash
+```
+
+### 3. 🚀 Chạy ứng dụng web
+```bash
 Copy code
 python -m streamlit run web.py
-
+```
 
 
 ## 🎬 Video Demo
