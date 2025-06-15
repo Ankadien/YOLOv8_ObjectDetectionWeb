@@ -21,16 +21,13 @@ Người dùng có thể tải ảnh lên và xem kết quả phát hiện đố
 
 
 ## 📁 Cấu trúc thư mục
-
+```bash
 YOLOv8_ObjectDetectionWeb/
 ├── requirements.txt 
 ├── web.py 
 ├── yolov8n.pt 
 └── README.md
-
-yaml
-Copy code
-
+```
 
 
 ## 🚀 Hướng dẫn cách cài đặt và chạy ứng dụng webweb
