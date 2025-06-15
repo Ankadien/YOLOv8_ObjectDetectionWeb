@@ -37,12 +37,12 @@ YOLOv8_ObjectDetectionWeb/
 git clone https://github.com/<ten-nguoi-dung>/YOLOv8_ObjectDetection_Web.git
 ```
 
-### 2. 📦 Cài đặt các thư viện cần thiết
+### 2. Cài đặt các thư viện cần thiết
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. 🚀 Chạy ứng dụng web
+### 3. Chạy ứng dụng web
 ```bash
 # run web
 python -m streamlit run web.py
