@@ -34,7 +34,7 @@ YOLOv8_ObjectDetectionWeb/
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/<ten-nguoi-dung>/YOLOv8_ObjectDetection_Web.git
+git clone https://github.com/Ankadien/YOLOv8_ObjectDetectionWeb.git
 ```
 
 ### 2. Cài đặt các thư viện cần thiết
