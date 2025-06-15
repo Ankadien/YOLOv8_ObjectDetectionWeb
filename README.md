@@ -36,21 +36,18 @@ Copy code
 ## 🚀 Hướng dẫn cách cài đặt và chạy ứng dụng webweb
 
 ### 1. Clone repository
-
 ```bash
 git clone https://github.com/<ten-nguoi-dung>/YOLOv8_ObjectDetection_Web.git
-cd YOLOv8_ObjectDetectionWeb
 ```
 
 ### 2. 📦 Cài đặt các thư viện cần thiết
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
 ### 3. 🚀 Chạy ứng dụng web
 ```bash
-Copy code
+# run web
 python -m streamlit run web.py
 ```
 
