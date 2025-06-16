@@ -50,4 +50,4 @@ python -m streamlit run web.py
 
 ## 🎬 Video Demo
 👉 Xem video demo cách hoạt động của ứng dụng tại đây:
-
+(https://drive.google.com/drive/folders/1rBgE4gbYWwLpaRfjb_bYBfcVj36xWev2?usp=sharing)
