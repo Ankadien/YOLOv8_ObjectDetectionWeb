@@ -44,7 +44,6 @@ pip install -r requirements.txt
 
 ### 3. Chạy ứng dụng web
 ```bash
-# run web
 python -m streamlit run web.py
 ```
 
