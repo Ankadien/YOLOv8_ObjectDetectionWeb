@@ -8,11 +8,11 @@ from ultralytics import YOLO
 st.set_page_config(page_title="YOLOv8 Detection", layout="centered")
 
 # ====== Title ======
-st.markdown("## 🧠 Object Detection Web App using YOLOv8")
-st.markdown("👤 **Author:** Nguyễn Hoài An")
+st.markdown("## Object Detection Web App using YOLOv8")
+st.markdown("**Author:** Nguyễn Hoài An")
 st.markdown("---")
 
-# Apply custom UI
+# Custom UI
 st.markdown("""
     <style>
     .stButton button {
@@ -62,7 +62,7 @@ if uploaded_file:
 
     # Button for detection
     if st.button("🔍 Detect Objects"):
-        # Load YOLO model (yolov8n for speed)
+        # Load YOLOv8N model
         model = YOLO("yolov8n.pt")
 
         # Run detection
@@ -73,5 +73,5 @@ if uploaded_file:
         # Show result
         st.image(result_img, caption="🎯 Detection Result", use_container_width=True)
 
-        # Cleanup (optional)
+        # Cleanup
         os.remove(temp_path)
